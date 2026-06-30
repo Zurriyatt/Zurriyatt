@@ -11,7 +11,7 @@ An elite-tier B2B corporate portal for a global coal trading enterprise. Built e
 A Web3-inspired alternative capital allocation and funding dashboard. Developed with full-stack Node.js logic and Mongoose to handle transactional user states, secure dynamic metrics, and live funding pools.
 
 ## 🛠️ Tech Stack & Capabilities
-- **Frontend Core:** HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
+- **Frontend Core:** HTML5, CSS3, JavaScript (ES6+)/TypeScript, Tailwind CSS
 - **Framework Ecosystem:** Next.js (App Router), React.js
 - **Backend & Database:** Node.js, Express.js, MongoDB, Mongoose ODM
 - **Development Workflows:** Git, REST APIs, Vercel, Netlify
