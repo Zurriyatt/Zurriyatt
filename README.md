@@ -4,10 +4,10 @@ I build high-fidelity web applications with an intense focus on elite UI/UX and 
 
 ## 🚀 Featured Production Builds
 
-### 🏭 [Fazal-e-Rabbi Group](https://github.com)
+### 🏭 [Fazal-e-Rabbi Group]([https://github.com](https://github.com/Zurriyatt/fazale-rabbi-group-RW))
 An elite-tier B2B corporate portal for a global coal trading enterprise. Built entirely using raw HTML, CSS, and Vanilla JS to achieve framework-free execution, flawless technical SEO, and instant page speeds. 
 
-### 💰 [Auryon](https://github.com)
+### 💰 [Auryon](https://github.com/Auryon)
 A Web3-inspired alternative capital allocation and funding dashboard. Developed with full-stack Node.js logic and Mongoose to handle transactional user states, secure dynamic metrics, and live funding pools.
 
 ## 🛠️ Tech Stack & Capabilities
