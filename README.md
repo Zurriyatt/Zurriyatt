@@ -4,6 +4,9 @@ I build high-fidelity web applications with an intense focus on elite UI/UX and 
 
 ## 🚀 Featured Production Builds
 
+### 🌌 [NovaCalX](https://github.com/Zurriyatt/NovaCalX) — *A full-stack SaaS ecosystem*
+A complete, production-grade platform including a URL shortener, LinkTree, Habit Tracker with DSA-powered streaks, live Weather App, Stripe-powered billing (Free/Pro/Prestige), JWT + Google OAuth authentication with 2FA, and a data-driven settings hub supporting 13 languages. Built with Next.js 16, MongoDB, Tailwind CSS, and Redux — deployed on Vercel.
+
 ### 🏭 [Fazal-e-Rabbi Group](https://github.com/Zurriyatt/fazale-rabbi-group-RW)
 An elite-tier B2B corporate portal for a global coal trading enterprise. Built entirely using raw HTML, CSS, and Vanilla JS to achieve framework-free execution, flawless technical SEO, and instant page speeds. 
 
