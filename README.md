@@ -1,60 +1,146 @@
-# 👋 Hi, I'm Zurriyatt | Full‑Stack Developer
+# 👋 Hi, I'm Zurriyatt
 
-I build high‑fidelity web applications with an intense focus on **elite UI/UX** and **clean data architecture**.  
-I specialize in the modern JavaScript/TypeScript ecosystem but strongly believe in mastering **core web fundamentals**.
+### Full-Stack Developer
+
+I build production-oriented web applications with a strong focus on **UI/UX, scalable application architecture, security, and clean data design**.
+
+My primary stack is the modern **JavaScript/TypeScript ecosystem**, while maintaining a strong foundation in core web technologies and software engineering fundamentals.
 
 ---
 
 ## 🚀 Featured Production Builds
 
-### 🌌 [NovaCalX](https://github.com/Zurriyatt/NovaCalX) — *A full‑stack SaaS ecosystem*
+### 🛍️ Zenfinith
+**Full-Stack E-Commerce Platform**
 
-A production‑ready platform combining a URL shortener, LinkTree, Habit Tracker with DSA‑powered streaks, live Weather App, Stripe‑based billing (Free/Pro/Prestige), JWT + Google OAuth with 2FA, and a settings hub supporting 13 languages.  
-**Built with:** Next.js 16, MongoDB, PostgreSQL, Tailwind CSS, Redux — deployed on Vercel.
+A complete e-commerce platform built around real-world commerce workflows, security, payments, administration, and personalized product discovery.
 
-### 🛍️ [Zenfinith](https://github.com/Zurriyatt/Zenfinith) — *A full‑stack e‑commerce platform*
+**Key Engineering Work**
+- Manual and OAuth authentication with **2FA**
+- **Device fingerprinting** and active-device management
+- Cart, wishlist, product collections, ratings, and discount coupons
+- **Multi-currency** commerce support
+- **Stripe Checkout** integration
+- Admin dashboards for commerce management
+- Transactional email workflows with Nodemailer
+- **Django-powered product recommendation engine**
+- PostgreSQL data layer using **Prisma**
 
-A complete e‑commerce solution featuring manual/OAuth login with 2FA and device fingerprinting, cart, wishlist, product collections, Stripe checkout, discount coupons, admin dashboards, multi‑currency support, ratings, active device management, and a Django‑powered product recommendation engine.  
-**Built with:** Next.js 16 (TS + JS), PostgreSQL (Neon) via Prisma, Django 6, Tailwind CSS, Nodemailer.
-
-### 🏭 [Fazal‑e‑Rabbi Group](https://github.com/Zurriyatt/fazale-rabbi-group-RW) — *Elite B2B Corporate Portal*
-
-An elite B2B corporate portal for a global coal trading enterprise. Built entirely with **raw HTML, CSS, and Vanilla JS** to achieve framework‑free execution, flawless technical SEO, and instant page speeds.
-
-### 💰 [Auryon](https://github.com/Zurriyatt) — *Web3‑inspired Capital Allocation Dashboard*
-
-A Web3‑inspired alternative capital allocation and funding dashboard. Developed with full‑stack Node.js logic, Next.js, and Mongoose to handle transactional user states, secure dynamic metrics, and live funding pools.
+**Built with:**  
+Next.js 16 · TypeScript · JavaScript · PostgreSQL · Prisma · Django 6 · Tailwind CSS · Stripe · Nodemailer
 
 ---
 
-## 🛠️ Tech Stack & Capabilities
+### 🌌 NovaCalX
+**Full-Stack SaaS Productivity Ecosystem**
 
-**Frontend Core**  
-HTML5 · CSS3 · JavaScript (ES6+) · TypeScript · Tailwind CSS
+An all-in-one productivity platform combining multiple applications into a unified SaaS ecosystem with authentication, subscriptions, analytics, localization, and security.
 
-**Framework Ecosystem**  
-Next.js (App Router) · React.js
+**Key Engineering Work**
+- Email/password and **Google OAuth** authentication
+- **Email OTP 2FA**, active-device tracking, and session revocation
+- Stripe subscription architecture with **Free / Pro / Prestige** tiers
+- Webhook-driven subscription upgrades, downgrades, and cancellations
+- Habit Tracker with **DSA-backed streak analytics**
+- 365-day SVG activity heatmap and RPG-style categories
+- QR-enabled URL shortener with analytics and date filtering
+- LinkTree-style profiles with custom handles, platform icons, analytics, and QR generation
+- Weather application with geolocation, forecasts, hourly charts, and analytics
+- Settings architecture supporting **13 languages**, search, and theme switching
 
-**Backend & Database**  
-Node.js · Express.js · MongoDB · Mongoose ODM · PostgreSQL · Prisma ORM · Django (Python)
+**Built with:**  
+Next.js 16 · TypeScript · JavaScript · MongoDB · PostgreSQL · Redux Toolkit · Tailwind CSS · Stripe · NextAuth · Supabase · Vercel
+
+---
+
+### 💰 Auryon
+**Creator Membership & Funding Platform**
+
+A full-stack membership and funding platform designed around creators, subscriptions, financial tracking, and customizable creator profiles.
+
+**Key Engineering Work**
+- Secure authentication and user management
+- Creator subscription workflows using **Stripe**
+- Transaction and payout management
+- Real-time financial dashboards
+- Subscriber and transaction analytics
+- Dynamic creator profiles and customizable storefronts
+- Responsive full-stack application architecture
+
+**Built with:**  
+Next.js · Node.js · MongoDB · Mongoose · Tailwind CSS · Stripe · NextAuth · Supabase
+
+---
+
+### 🏭 Fazal Rabbi Group
+**B2B Corporate Web Platform**
+
+A production corporate website developed for an international coal import and export business.
+
+Built entirely with **HTML, CSS, and Vanilla JavaScript**, demonstrating the ability to build polished production interfaces without relying on a frontend framework.
+
+**Key Engineering Work**
+- Responsive frontend architecture
+- Framework-free JavaScript implementation
+- Technical SEO optimization
+- Asset delivery optimization
+- Layout stability and rendering optimization
+- Cross-browser compatibility
+- Production deployment and maintenance
+
+**Built with:**  
+HTML5 · CSS3 · Vanilla JavaScript
+
+---
+
+## 🧠 Engineering Focus
+
+- Full-Stack Web Development
+- Scalable Application Architecture
+- Authentication & Security
+- Payment & Subscription Systems
+- Database Design & Optimization
+- REST APIs & Backend Architecture
+- Analytics & Data-Driven Interfaces
+- Responsive UI/UX
+- Performance Optimization
+- Technical SEO
+- Data Structures & Algorithms
+
+---
+
+## 🛠️ Core Technology
+
+**Languages**  
+TypeScript · JavaScript · Python · SQL · HTML5 · CSS3
+
+**Frontend**  
+Next.js · React · Tailwind CSS · Redux Toolkit · Framer Motion · Shadcn UI · Recharts
+
+**Backend**  
+Node.js · Express.js · Django · REST APIs · WebSockets
+
+**Databases**  
+PostgreSQL · MongoDB · Prisma · Mongoose · Supabase
 
 **Authentication & Security**  
-JWT · OAuth (Google, GitHub) · Two‑Factor Authentication · Device Fingerprinting · Session Management
+NextAuth · JWT · OAuth 2.0 · 2FA · Sessions · Device Fingerprinting
 
-**Payments & Subscriptions**  
-Stripe Checkout · Discount/Coupon Logic · Order Management
-
-**Development Workflows**  
-Git · REST APIs · Vercel · Railway · Render · Snap Deploy · Uptime Monitoring
+**Services & Infrastructure**  
+Stripe · Nodemailer · Cloudinary · Vercel · Git · GitHub · Postman · Linux
 
 ---
 
-## 📫 Connect with Me
+## 📈 How I Build
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zurriyatt)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+I focus on taking applications from **idea → architecture → implementation → security → deployment**.
+
+Rather than treating the frontend, backend, database, and integrations as isolated pieces, I approach applications as complete systems where the UI, business logic, data model, authentication, payments, and performance all need to work together.
 
 ---
 
-*“Code is like humor. When you have to explain it, it’s bad.”* – Cory House
+## 📫 Connect
+
+**GitHub:** Zurriyatt  
+**LinkedIn:** Zurriyatt  
+**Email:** zurriyatt.dev@proton.me
