@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Zurriyatt
 
-### Full-Stack Developer
+### Full-Stack & Systems Developer
 
-I build production-oriented web applications with a strong focus on **UI/UX, scalable application architecture, security, and clean data design**.
+I build production-oriented web applications with a strong focus on **UI/UX, scalable application architecture, security, and clean data design**, while exploring low-level networking, protocols, and computer science fundamentals.
 
-My primary stack is the modern **JavaScript/TypeScript ecosystem**, while maintaining a strong foundation in core web technologies and software engineering fundamentals.
+My primary stack is the modern **JavaScript/TypeScript ecosystem**, backed by a deep understanding of core web technologies, operating system runtimes, and networking architecture.
 
 ---
 
@@ -93,10 +93,31 @@ HTML5 · CSS3 · Vanilla JavaScript
 
 ---
 
+## ⚙️ Systems & Core CS Builds
+
+### ⚡ mini-redis-ts
+**In-Memory Key-Value Database Engine & REPL Client**
+
+A lightweight Redis clone built from scratch in TypeScript directly over raw Layer 4 TCP sockets with zero third-party dependencies, implementing custom protocol serialization and persistent process memory.
+
+**Key Engineering Work**
+- Raw TCP socket server architecture using Node's native `net` module listening on port `6379`
+- Custom **RESP (Redis Serialization Protocol)** parser handling length-prefixed bulk strings, simple strings, arrays, integers, and error framing
+- Persistent in-memory storage engine leveraging V8 Heap allocation and Node module singleton caching
+- Branchless **$O(1)$ Command Dispatcher pattern** using TypeScript `Record<string, CommandHandler>` for instantaneous command execution
+- Built an interactive terminal REPL client with Node's `readline` handling bidirectional byte streams
+
+**Built with:**  
+TypeScript · Node.js `net` (Raw TCP) · Redis Serialization Protocol (RESP) · V8 Heap Architecture
+
+---
+
 ## 🧠 Engineering Focus
 
 - Full-Stack Web Development
 - Scalable Application Architecture
+- Low-Level Networking (TCP/Sockets vs. HTTP)
+- In-Memory Data Stores & Caching Strategies
 - Authentication & Security
 - Payment & Subscription Systems
 - Database Design & Optimization
@@ -117,11 +138,11 @@ TypeScript · JavaScript · Python · SQL · HTML5 · CSS3
 **Frontend**  
 Next.js · React · Tailwind CSS · Redux Toolkit · Framer Motion · Shadcn UI · Recharts
 
-**Backend**  
-Node.js · Express.js · Django · REST APIs · WebSockets
+**Backend & Systems**  
+Node.js · Express.js · Django · Raw TCP Sockets (`net`) · Redis (RESP Protocol) · REST APIs · WebSockets
 
 **Databases**  
-PostgreSQL · MongoDB · Prisma · Mongoose · Supabase
+PostgreSQL · MongoDB · Prisma · Mongoose · Supabase · In-Memory Caches
 
 **Authentication & Security**  
 NextAuth · JWT · OAuth 2.0 · 2FA · Sessions · Device Fingerprinting
@@ -135,7 +156,7 @@ Stripe · Nodemailer · Cloudinary · Vercel · Git · GitHub · Postman · Linu
 
 I focus on taking applications from **idea → architecture → implementation → security → deployment**.
 
-Rather than treating the frontend, backend, database, and integrations as isolated pieces, I approach applications as complete systems where the UI, business logic, data model, authentication, payments, and performance all need to work together.
+Rather than treating the frontend, backend, database, and integrations as isolated pieces, I approach applications as complete systems where the UI, business logic, data model, networking layer, authentication, payments, and performance all need to work together.
 
 ---
 
@@ -143,4 +164,4 @@ Rather than treating the frontend, backend, database, and integrations as isolat
 
 **GitHub:** Zurriyatt  
 **LinkedIn:** Zurriyatt  
-**Email:** zurriyatt.dev@proton.me
+**Email:** zurriyat.dev@proton.me
